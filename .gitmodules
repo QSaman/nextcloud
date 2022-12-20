@@ -1,0 +1,3 @@
+[submodule "external/nextcloud-docker"]
+	path = external/nextcloud-docker
+	url = https://github.com/QSaman/nextcloud-docker.git
