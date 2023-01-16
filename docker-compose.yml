@@ -35,7 +35,7 @@ services:
       - db
       - redis
     networks:
-      - nginx-proxy_proxy-tier
+      - nginx-proxy-tier
       - default
 
   cron:
@@ -58,5 +58,5 @@ volumes:
       o: 'bind'
       device: '${NEXTCLOUD_DATA_EXTERNAL_DIR:?err}'
 networks:
-  nginx-proxy_proxy-tier:
+  nginx-proxy-tier:
     external: true
